@@ -3,7 +3,7 @@
 # Script:  logclear.sh                     
 # Author:  Marcelo Clark                      
 # Date of latest revision:   6/6/2023   
-# Purpose:   Create a script that clears log data                 
+# Purpose:   Create a script that compresses log data and compares it to the original                
 
 #Note: run sudo apt-get install zip in terminal for compression software
 
