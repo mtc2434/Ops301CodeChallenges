@@ -36,7 +36,7 @@ http_methods = {
 if http_method in http_methods:
     response = http_methods[http_method](url)
 else:
-    print("Invalid HTTP method.")
+    print("Erm, this URL does not work.")
     exit()
 
 # Print response headers
