@@ -6,7 +6,7 @@ import os
 
 # Script Name:                  equalornot.py
 # Author:                       Marcelo Clark
-# Date of latest revision:      6/12/2023
+# Date of latest revision:      6/25/2023
 # Purpose:                      Purpose
 
 # Declaration of variables
@@ -21,6 +21,16 @@ b = 2
 # checks if a is equal to b and will print "a is equal to b" if this is true
 if a == b:
     print("a is equal to b")
+    elif a < b:
+    print("a is less than b")
+elif a <= b:
+    print("a is less than or equal to b")
+elif a > b:
+    print("a is greater than b")
+elif a >= b:
+    print("a is greater than or equal to b")
+else:
+    print("Something really bad happened")
 
 
 # End
